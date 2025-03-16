@@ -1,0 +1,42 @@
+Libraries -
+    * Collection of reusable code 
+    * Reduces need to write repetitive/complex from scratch  
+    * You control how/when it's used No/few boundaries
+
+Frameworks -
+    * Predetermined architecture - you follow a specific pattern of development.
+    * Provides a structure for your application, but you still have control over the implementation details.
+    * You can choose to use or not use certain parts of the framework.
+    * You can also extend or modify the framework to suit your needs.
+    * You can use multiple frameworks together.
+    * You can use a framework as a library, but not all libraries are frameworks.
+    
+When you might NOT want a framework -
+    * You're building a small, simple application that doesn't need a lot of structure or organization
+    * Network load concerns
+    * You're building a highly customized application that doesn't fit well with a pre-defined architecture
+    * You're building a system that requires a high degree of customization or flexibility
+    * You're building a system that requires a high degree of security or compliance with specific regulations
+    * You're building a system that requires a high degree of scalability or performance
+    * You're building a system that requires a high degree of maintainability or ease of use
+    * You're building a system that requires a high degree of integration with other systems or services
+
+When you might want to use React -
+    * Largest ecosystem/community
+    * Most widely used library
+    * Composable/Declarative
+    * Active development
+
+Why React?
+    * Its composable, can create easily reusable and interchangeable 'pieces of the web' that can be
+    * be combined in various ways to create complex systems.
+    
+General Notes:
+    * React uses className instead of class to avoid conflicts with JS class keyword
+    * It works the same way as class in HTML just with different name
+    * without className React will throw an error
+    * React is Declarative where you can create reusable and interchangeable 'pieces of the web' that can be combined in various ways to create complex systems.
+    * Declarative means that we can lean on the library to handle manual tedious tasks that we otherwise would have to do ourself.
+    * Imperative - how things should be done ? - describe me each step on how to do it and ill do it.
+    * Declarative - what should be done? - Just tell me what needs to be done and ill get it done.
+    * You can return entire functions in root.render(), you can create function that will return some portion of html say main section and that will be composed of its own elements within and that entire function can be called advantage of doing this is you can create predefined templates and call function so when u make changes the entire template changes instead of doing it on each page.

@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-left: 50px !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+}
+
+ul,
+ol {
+  margin-left: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+img {
+  width: 100px !important;
+  margin-top: 50px;
+  left: 0;
+  margin-left: 50px !important;
+}
